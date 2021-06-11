@@ -1,0 +1,108 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .active {
+    background-color: #752006;
+  }
+
+  body{
+      background-image: url(./backgroundImage_edited.jpg);
+  }
+  ul{
+    text-align: center;
+    font-size: 40px;
+    list-style-type: none;
+    margin: 30px;
+    padding: 30px;
+    overflow: hidden;
+    
+  }
+
+  
+
+  li {
+    text-align: center;
+    float: left;
+   
+      border-right: 10px solid rgb(5, 5, 5);
+     }
+    li:last-child {
+      border-right: none;
+    }
+    
+    
+ 
+      
+   
+  
+  
+    li a{
+      color: darkred;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+  
+  li a:hover {
+    color: rgb(129, 15, 15);
+  }
+  
+
+  h1{
+      font-size: 95px;
+      color: rgb(245, 238, 238);
+      text-align: center;
+  }
+ 
+table{
+  background-image: url(./tableBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+
+}
+
+ form{
+   
+   width: min-content;
+   height: min-content;
+   color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   box-shadow: 10px 10px 5px rgb(22, 8, 75) ;
+}
+ tr{
+  font-size: 20px; 
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ }
+ figcaption{
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  box-shadow: 10px 10px 5px rgb(22, 8, 75) ;
+  
+ }
+ .FormPosition{
+   position: relative;
+   left: 150px;
+ }
+ .pgOneFigure{
+   position: relative;
+   left: 400px;
+ }
+
+ footer{
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(245, 244, 247);
+  color: rgb(10, 10, 10);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+ }
+
+
+
+ 
